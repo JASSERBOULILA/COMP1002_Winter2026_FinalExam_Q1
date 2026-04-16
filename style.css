@@ -49,6 +49,11 @@ nav li a{
     align-items: center;   
 }
 
+p:hover{
+    cursor: pointer;
+    color: brown;
+}
+
 
 .header-section{
     display: flex;
@@ -69,9 +74,11 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
+    
     .section{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     footer{
         margin-left: 0;
