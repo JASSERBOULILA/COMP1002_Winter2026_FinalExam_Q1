@@ -49,7 +49,7 @@ nav li a{
     align-items: center;   
 }
 
-p:hover{
+a:hover{
     cursor: pointer;
     color: brown;
 }
